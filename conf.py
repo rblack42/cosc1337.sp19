@@ -4,7 +4,7 @@
 
 import os
 import sys
-sys.path.insert(0, os.path.abspath('..'))
+sys.path.insert(0, os.path.abspath('.'))
 import cloud_sptheme as csp
 
 project = 'COSC1337'
@@ -22,6 +22,7 @@ extensions = [
     'sphinx_ext.circuits',
     'sphinx_ext.rail',
     'sphinx_ext.programoutput',
+    'sphinx.ext.githubpages',
 ]
 
 templates_path = ['_templates']

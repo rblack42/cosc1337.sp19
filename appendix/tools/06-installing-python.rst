@@ -62,12 +62,12 @@ Setting up the system ``path``
 ==============================
 
 Before we are ready to run Python_, we need to set the system up so it can find
-it from the :term:`command prompt` we will be using in class.
+it from the ``command prompt`` we will be using in class.
 
 To do this. Follow the instructions in the lecture :ref:`command-line` and
 add ``c:\tools\python37`` to the system ``path variable``. You should also add
 ``c:\tools\Python37/Scripts`` since we will need it as the course proceeds.
 
 That is all we need to do. To make sure everything works, open up a
-:term:`command prompt` window and type in ``python``. You should see the
+``command prompt`` window and type in ``python``. You should see the
 interpreter sign on as we did earlier!
